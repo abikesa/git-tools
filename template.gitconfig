@@ -1,0 +1,9 @@
+[user]
+  name = Default User
+  email = default@example.com
+
+[includeIf "gitdir:~/code/company/"]
+  path = ~/.gitconfig-company
+
+[includeIf "gitdir:~/code/personal/"]
+  path = ~/.gitconfig-personal

@@ -15,18 +15,18 @@ fi
 case "$identity" in
   personal)
     token=$GITHUB_PAT_PERSONAL
-    email="yourname@gmail.com"
-    name="Your Name (Personal)"
+    email="abikesa.sh@gmail.com"
+    name="Zeus"
     ;;
   company)
     token=$GITHUB_PAT_COMPANY
-    email="you@company.com"
-    name="Your Name (Company)"
+    email="ukubona-llc@gmail.com"
+    name="CEO"
     ;;
   academic)
     token=$GITHUB_PAT_ACADEMIC
-    email="you@university.edu"
-    name="Your Name (Academic)"
+    email="jhurepos@gmail.com"
+    name="Instructor"
     ;;
   *)
     echo "Invalid identity."
